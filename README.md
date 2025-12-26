@@ -29,6 +29,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+~~~
 azarbook.html
 
 
@@ -85,6 +86,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.bookcover),
 ]
+~~~
 
 # OUTPUT:
 <img width="302" height="421" alt="image" src="https://github.com/user-attachments/assets/38021c25-5475-4e35-bcee-205a068083fb" />
